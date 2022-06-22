@@ -1,3 +1,24 @@
+$('.tab-buttons span').first().addClass('active');
+$('.tab-content>div').hide();
+$('.tab-content>div').first().slideDown();
+$('.tab-buttons span').click(function() {
+    $('.tab-buttons span').removeClass('active');
+    var thisclass = $(this).attr('class');
+    $(this).addClass('active');
+    $('.tab-content>div').each(function() {
+        if ($(this).hasClass(thisclass)) {
+            $(this).fadeIn(800);
+        } else {
+            $(this).hide();
+        }
+    });
+});
+
+
+//   
+
+
+
 const navScroller = function({
     wrapperSelector: wrapperSelector = '.nav-scroller-wrapper',
     selector: selector = '.nav-scroller',
@@ -365,3 +386,8 @@ $(".tab_drawer_heading").click(function() {
    to add border to bottom side
    of last tab 
 $('ul.tabs li').last().addClass("tab_last");*/
+
+
+$(window).on('load', function() {
+    $("#cover").delay(1800).fadeOut("slow");
+});

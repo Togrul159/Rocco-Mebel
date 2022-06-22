@@ -236,7 +236,7 @@ nav.input-inset:focus {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) -3.1%, rgba(0, 0, 0, 0) 89.16%);
 }
 
-#SliderFull .single-item .slick-prev {
+#SliderFull .single-item .slick-next {
     position: absolute;
     z-index: 232;
     right: 20%;
@@ -252,7 +252,7 @@ nav.input-inset:focus {
 
 .slick-prev:before {
     font-family: "Font Awesome 5 Pro";
-    content: "\f105";
+    content: "\f104";
     font-weight: 400;
     color: #fff;
     font-size: 30px;
@@ -260,13 +260,109 @@ nav.input-inset:focus {
 
 .slick-next:before {
     font-family: "Font Awesome 5 Pro";
+    content: "\f105";
+    font-weight: 400;
+    color: #fff;
+    font-size: 30px;
+}
+
+#SliderFull .single-item .slick-prev {
+    position: absolute;
+    z-index: 232;
+    right: 30%;
+    bottom: 30px;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #FCFCFCA6;
+    box-shadow: 0px 4px 20px 0px #00000033;
+}
+
+
+/* First Slider End */
+
+
+/* First Slider Start */
+
+#SliderFull2 .single-item .sliderFullContent img {
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+#SliderFull2 .single-item .sliderFullContent {
+    position: relative;
+    z-index: 124;
+}
+
+#SliderFull2 .single-item .sliderFullContent .SlideText {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3232;
+    top: 0%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#SliderFull2 .single-item .sliderFullContent .SlideText h1 {
+    color: #fff;
+    font-size: 60px;
+}
+
+#SliderFull2 .single-item .sliderFullContent .SlideText button {
+    background-color: #732533;
+    padding: 8px 22px;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#SliderFull2 .overlay {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 70vh;
+    background: #0000005E;
+}
+
+#SliderFull2 .single-item .slick-next {
+    position: absolute;
+    z-index: 232;
+    right: 20%;
+    bottom: 30px;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #FCFCFCA6;
+    box-shadow: 0px 4px 20px 0px #00000033;
+}
+
+.slick-prev:before {
+    font-family: "Font Awesome 5 Pro";
     content: "\f104";
     font-weight: 400;
     color: #fff;
     font-size: 30px;
 }
 
-#SliderFull .single-item .slick-next {
+.slick-next:before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f105";
+    font-weight: 400;
+    color: #fff;
+    font-size: 30px;
+}
+
+#SliderFull2 .single-item .slick-prev {
     position: absolute;
     z-index: 232;
     right: 30%;
@@ -481,6 +577,453 @@ ul.tabs li.active {
 /* Intagram Slider End */
 
 
+/* YumMebel Page Start */
+
+
+/* Label PAge Start */
+
+#LabelPage .overlay {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 70vh;
+    background: #0000005E;
+}
+
+#LabelPage .labelTitle {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 134;
+}
+
+#LabelPage .labelTitle h1 {
+    color: #FFFFFF;
+    font-size: 58px;
+}
+
+
+/* Label PAge End */
+
+
+/* ProductList Start */
+
+.productBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.productBox .productImg {
+    /* width: 100%; */
+}
+
+.productBox .productImg img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.productBox .productInfo {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.productBox .productInfo span {
+    font-size: 22px;
+    color: #41484D;
+    font-weight: 400;
+}
+
+.productBox .productInfo p {
+    font-size: 18px;
+    color: #732533;
+    font-weight: 600;
+}
+
+
+/* ProductList End */
+
+.productBox2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.productBox2 .productImg {
+    width: 100%;
+}
+
+.productBox2 .productImg img {
+    width: 100%;
+    height: 300px;
+    box-shadow: 0px 4px 15px 0px #0000001A;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.productBox2 .productInfo {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.productBox2 .productInfo span {
+    font-size: 22px;
+    color: #41484D;
+    font-weight: 400;
+}
+
+.productBox2 .productInfo p {
+    font-size: 18px;
+    color: #732533;
+    font-weight: 600;
+}
+
+
+/* YumMebel Page End */
+
+
+/* Product Page Start */
+
+#Label {
+    background-image: url(../img/Label.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    box-shadow: 0px 4px 25px 0px #00000033;
+}
+
+#Label .overlay {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    background: #000;
+    z-index: 2;
+    opacity: .2;
+}
+
+#Label .productNameTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 23;
+}
+
+#Label .productNameTitle h1 {
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 58px;
+}
+
+
+/* ProductInfo Start */
+
+#ProductInfo .productImgInfo img {
+    width: 100%;
+}
+
+#ProductInfo .ProductInfoRight .prName {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+#ProductInfo .ProductInfoRight {
+    margin: 10px 0;
+}
+
+#ProductInfo .ProductInfoRight .prName h1 {
+    color: #41484D;
+    padding-bottom: 10px !important;
+}
+
+#ProductInfo .ProductInfoRight .prName span {
+    color: #732533;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#ProductInfo .ProductInfoRight .prName p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+#ProductInfo .infoM span {
+    font-weight: bold;
+}
+
+#ProductInfo .infoM p {
+    margin-top: 5px;
+}
+
+#ProductInfo .orderingBtn button {
+    padding: 8px 24px;
+    font-size: 18px;
+    background-color: #732533;
+    border-radius: 16px;
+    border: none;
+    color: #fff;
+}
+
+#ProductInfo .orderingBtn button i {
+    color: #25d366;
+    font-size: 20px;
+}
+
+
+/* ProductInfo End */
+
+
+/* Product Page End */
+
+.tab-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.tab-buttons span {
+    font-size: 18px;
+    color: #41484D;
+    cursor: pointer;
+    display: inline-block;
+    /* margin-right: 10px; */
+    padding: 10px;
+}
+
+.tab-buttons span i {
+    color: #732533;
+}
+
+.tab-buttons span.active {
+    border-bottom: 2px solid #333;
+}
+
+
+/* Contact PAge Start */
+
+#ContactUs {
+    background-image: url(../img/ContactUS.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+#ContactUs .contactForm {
+    width: 80%;
+    margin: auto;
+}
+
+#ContactUs .leftForm {
+    background-image: url(../img/contactBAck.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+    box-shadow: 0px 4px 25px 0px #00000033;
+}
+
+#ContactUs .leftForm .title h3 {
+    color: #fff;
+}
+
+#ContactUs .leftForm .contactSosial {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#ContactUs .leftForm .contactSosial a {
+    margin: 20px 0;
+    color: #fff;
+    font-size: 20px;
+}
+
+#ContactUs .leftForm .Navsocial {
+    margin-top: 20px;
+}
+
+#ContactUs .leftForm .Navsocial a {
+    color: #41484D;
+    background-color: #fff;
+    padding: 4px 10px;
+    border-radius: 50%;
+    transition: .3 ease all;
+    margin: 0 5px;
+}
+
+#ContactUs .leftForm .Navsocial a:hover {
+    background-color: #41484D;
+    color: #fff;
+}
+
+#ContactUs .rightForm {
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+}
+
+#ContactUs .rightForm .title h3 {
+    color: #41484D;
+}
+
+#ContactUs .rightForm .inp {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+#ContactUs .rightForm .inp label {
+    color: #41484D;
+    font-weight: 500;
+}
+
+#ContactUs .rightForm .inp input {
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+}
+
+#ContactUs .rightForm .inp textarea {
+    border: none;
+    border-bottom: 1px solid #000000;
+    height: 200px;
+    padding: 10px;
+}
+
+#ContactUs .rightForm .inpBtn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+#ContactUs .rightForm .inpBtn button {
+    padding: 3px 15px;
+    color: #fff;
+    box-shadow: 0px 4px 15px 0px #0000001A;
+    background-color: #732533;
+    border-radius: 35px;
+    border: none;
+}
+
+
+/* Contact PAge End */
+
+
+/* About Page Start */
+
+#About .aboutTitle h1 {
+    color: #41484D;
+}
+
+#About .aboutTitle p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#About .aboutImg img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+#About .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#About .adressMarket {
+    display: flex;
+    align-items: center;
+}
+
+#About .adressMarket span {
+    margin: 20px 10px;
+    font-size: 18px;
+}
+
+#About .adressMarket span i {
+    font-size: 22px;
+}
+
+
+/* About Page End */
+
+
+/* Camping Start */
+
+#Campaing .campaingImg img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 4px 25px 0px #00000033;
+}
+
+#Campaing .campaingText {
+    text-align: end;
+}
+
+#Campaing .campaingText h3 {
+    margin-bottom: 30px !important;
+}
+
+#Campaing .campaingText p {
+    line-height: 40px;
+    font-size: 18px;
+}
+
+#Campaing .tab-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#Campaing .tab-buttons span {
+    font-size: 18px;
+    color: #41484D;
+    border: 1px solid #41484D;
+    border-radius: 25px;
+    margin: 0 5px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+#Campaing .tab-buttons span i {
+    color: #732533;
+}
+
+#Campaing .tab-buttons span.active {
+    background-color: #732533;
+    color: #fff;
+}
+
+
+/* Camping End */
+
+
 /* Footer Start */
 
 footer {
@@ -556,3 +1099,27 @@ footer a:hover {
 
 
 /* Footer End */
+
+#cover {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 9999;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+#cover .LoaderLogo img {
+    width: 100%;
+}
+
+#cover img {
+    width: 40%;
+}
